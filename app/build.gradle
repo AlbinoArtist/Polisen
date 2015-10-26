@@ -24,4 +24,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:21.1.0'
     compile 'com.xiaochendev.progressroundbtn:library:0.9.1'
+    compile('com.mikepenz:materialdrawer:4.4.0@aar') {
+        transitive = true
+    }
 }
